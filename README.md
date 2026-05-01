@@ -45,6 +45,9 @@ The guide may revise P<sub>5</sub> in response to evidence the operator surfaces
 - [P<sub>5</sub> synthesis (with web search) — `p5_with_search_v5b.txt`](./prompts/p5/p5_with_search_v5b.txt)
 - [P<sub>4</sub> with database tools — `p4_with_tools.txt`](./prompts/p4/p4_with_tools.txt)
 
+### Post-Hoc Analysis
+
+- [Comparing web-search capability for P5](./post_hoc/README.md)
 ---
 
 ## License
