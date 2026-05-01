@@ -1,0 +1,33 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Python (in case any helper scripts get added later)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# LaTeX intermediate files (only if a paper folder ever compiles locally)
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
+# Secrets — never commit
+.env
+.env.*
+*.pem
+*.key
+api_keys.txt
