@@ -1,6 +1,6 @@
 # Negotiation-Theoretic Frameworks for Human-AI Price Discovery
 
-Supplementary materials for the ICIS 2026 short paper of the same title.
+Supplementary materials for our paper.
 
 > Repository is private during blind review. Will be made public (with an
 > anonymized snapshot URL for reviewers) at submission.
@@ -9,7 +9,7 @@ Supplementary materials for the ICIS 2026 short paper of the same title.
 
 ## About
 
-This repository accompanies an ICIS 2026 short paper on **AI-assisted reserve price discovery for collector and enthusiast vehicles** (Bring a Trailer auctions).
+This repository accompanies paper on **AI-assisted reserve price discovery for collector and enthusiast vehicles** (Bring a Trailer auctions).
 
 An LLM guide (Claude Opus-4.7) produces an initial reserve estimate P<sub>5</sub> by aggregating four upstream signals — **P<sub>1</sub>**, a six-month exact-match market average (Classic.com); **P<sub>2</sub>**, a *k*-NN price estimate over matched features; **P<sub>3</sub>**, a trained mixture-of-experts model; and **P<sub>4</sub>**, a peer LLM (Gemini 3.1 Pro) with database access. A second LLM (GPT-5.5) playing the platform operator then engages the guide in a multi-turn conversation to stress-test P<sub>5</sub> — without proposing a number of its own. We vary the operator's interaction strategy between two conditions drawn from classical bargaining theory:
 
